@@ -1,5 +1,6 @@
 {
     "Welcome to React": "Привет to React and react-i18next",
     "second": "секунда",
-    "minute": "минута"
+    "minute": "минута",
+    "hour": "час"
 }
