@@ -1,0 +1,8 @@
+git:
+filters:
+- filter_type: dir
+  file_format: JSON
+  source_file_extension: JSON
+  source_language: en
+  source_file_dir: src/locales/
+  translation_files_expression: 'locales/<lang>'
