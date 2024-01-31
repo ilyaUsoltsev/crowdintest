@@ -1,8 +1,7 @@
 git:
 filters:
-- filter_type: dir
+- filter_type: dynamic
   file_format: JSON
-  source_file_extension: JSON
   source_language: en
-  source_file_dir: src/locales/
-  translation_files_expression: 'locales/<lang>'
+  source_files_expression: src/locales/en.json
+  translation_files_expression: 'src/locales/<file>.json'
